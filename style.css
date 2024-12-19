@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.category {
+    padding: 10px 20px;
+    background: #e0e0e0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.category:hover {
+    background: #d1d1d1;
+}
+
+.text-danger {
+    color: red;
+}
+
+.text-success {
+    color: green;
+}
